@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.carta{
+    background-color: #785ce9;
+    align-items: center;
+    width: 250px;
+    border: 1px solid black;
+    border-radius: 11px 11px 3px 3px;
+    height: 750px;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.carta > div,h3,p{
+    display: flex;
+    justify-content: center;
+}
+
+.carta > h3,p{
+    padding: 10px 8px 10px 8px;
+}
+
+.carta div img{
+    width: 250px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.desc{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+

@@ -1,0 +1,6 @@
+.buscadorybotones{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 500px 0px 500px ;
+    align-items: center;
+}
